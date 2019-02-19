@@ -1,0 +1,238 @@
+#Tech-Banner
+{
+    background-position: right !important;
+    min-height:25em;
+    padding-top:3em;
+}
+#Tech-Banner H1
+{
+    font-size: 3em;
+    font-weight: 300;
+    text-transform:uppercase;
+}
+#Tech-Banner H3
+{
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 300;
+    text-transform:uppercase;
+}
+.button.secondary.no-results 
+{
+	border: none;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	color: white;
+	margin-bottom: 0.3em;
+}
+.button.secondary.no-results:hover
+{
+    background-color: transparent;
+}
+.button.secondary.no-results h4
+{
+    font-weight: 300;
+    color:white;
+}
+.button.secondary.no-results h4:hover
+{
+    color:#65beeb;
+}
+/*****Main Banner CSS*****/
+.banner
+{
+    text-align:center;
+}
+.banner h1
+{
+    color:white;
+}
+.banner h2
+{
+    font-size:1.4375rem;
+    color:#eeeeee;
+}
+.banner-tag
+{
+    font-size: 1.1rem;
+    color: #eeeeee;
+    padding: 3px 5px;
+    background-color: rgba(51,51,51,0.7);
+    font-weight: 300;
+    line-height: 2.6rem;
+}
+.meta-intro h3
+{
+    font-size:1.4375rem;
+    font-weight: 300;
+}
+@media only screen and (max-width: 640px) {
+    .meta-intro h3
+    {
+        font-size:1.125rem
+    }
+}
+.flex-video 
+{
+    padding-bottom: 53%;
+    margin-top: -.5rem;
+    margin-bottom: 0;
+}
+.blognav
+{
+    color:white;
+}
+.blognav::hover
+{
+    color:#65beeb;
+}
+.gender
+{
+    color:#ffffff;
+    background:#333333;
+    opacity:1;
+    padding: 5px 10px;
+}
+.womens
+{
+    background:#ad528e;
+}
+.white-text
+{
+    color:white;
+}
+.caps
+{
+    text-transform: uppercase;
+}
+#BG-Position-Top
+{
+    background-position: top !important;
+}
+#BG-Position-Right
+{
+    background-position: right !important;
+}
+#BG-Position-Right-Top
+{
+    background-position: top right !important;
+}
+#BG-Position-Right-Bottom
+{
+    background-position: bottom right !important;
+}
+#BG-Position-Bottom
+{
+    background-position: bottom !important;
+}
+#BG-Position-Left
+{
+    background-position: left !important;
+}
+#BG-Position-Left-Top
+{
+    background-position: top left !important;
+}
+#BG-Position-Left-Bottom
+{
+    background-position: bottom left !important;
+}
+#BG-Position-Centre
+{
+    background-position: center !important;
+}
+a.button.secondary.Inline-Button {
+    border: none;
+    text-transform: none;
+    width: auto;
+    text-align: left;
+    padding: 0;
+    background-color: white;
+    color: #65beeb;
+    font-size: inherit;
+    margin-bottom: 0;
+}
+.cat-breadcrumbs-nav p
+{
+    font-size: 0.875em;
+    font-family: "din-2014",sans-serif;
+    color: white;
+}
+.cat-breadcrumbs-nav a
+{
+    color:white;
+    font-family: "din-2014",sans-serif;
+}
+.cat-breadcrumbs-nav a:hover
+{
+    color: #65beeb;
+}
+/********Careers page CSS********/
+.style
+{
+list-style:none;
+padding:10px 0 0 70px;
+height:60px;
+margin:5px;
+}
+.li1 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2017/09/Award-Winning.png');
+background-size: 60px;
+background-repeat: no-repeat;
+}
+.li2 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2017/09/Holiday.png');
+background-size: 60px 60px;
+background-repeat: no-repeat;
+}
+.li3 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2017/09/Bonus.png');
+background-size: 60px 60px;
+background-repeat: no-repeat;
+}
+.li4 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2017/09/Cycle-Work.png');
+background-size: 60px;
+background-repeat: no-repeat;
+}
+.li5 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2017/09/Employeee-of-Month.png');
+background-size: 60px 60px;
+background-repeat: no-repeat;
+}
+.li6 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2017/09/Pension.png');
+background-size: 60px;
+background-repeat: no-repeat;
+}
+.li7 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2017/09/Childcare.png');
+background-size: 60px;
+background-repeat: no-repeat;
+}
+.li8 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2017/09/Staff-Deals.png');
+background-size: 60px;
+background-repeat: no-repeat;
+}
+.li9 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2017/09/Dress-Code.png');
+background-size: 60px;
+background-repeat: no-repeat;
+}
+.li10 {
+background:url('https://www.ospreyeurope.com/wp-content/uploads/2018/11/Social.png');
+background-size: 60px;
+background-repeat: no-repeat;
+}
+.white2
+{
+color:white;
+}
+@media (max-width:880px) and (min-width:640px) {
+span.white2
+{
+font-size:medium;
+}
+}
