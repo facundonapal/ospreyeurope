@@ -1,10 +1,15 @@
+
+.owl-theme .owl-nav .owl-prev:before {
+    content: "<" !important;
+}
+
 /*=========================
     LOOKBOOK STYLES
 ==========================*/
 
 
 .wrapper-widgets {
-    margin: 44px auto;
+    margin: 44px 0;
 }
 
 .tabss {
@@ -53,7 +58,7 @@
 
 .ps-images {
     display: grid;
-    grid-gap: 0 !important;
+    grid-gap: 2px !important;
     grid-template-columns: repeat(auto-fill,250px) !important;
 }
 
@@ -63,6 +68,9 @@
     PRODUCT STYLES
 ==========================*/
 
+.ps-container {
+    right: 26px;
+}
 
 .widget__content {
     max-width: 1280px;
@@ -75,5 +83,18 @@
 }
 
 .ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
-    padding: 12px 16px !important;
+    padding: 12px 44px !important;
 }
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal .ps-image+.ps-image {
+    margin-left: 0 !important;
+}
+
+/* .ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal nav span.ps-next {
+    right: 0px !important;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal nav span.ps-prev {
+    left: -24px !important;
+} */
+
